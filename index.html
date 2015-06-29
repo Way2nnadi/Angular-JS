@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <title>Learning and Understanding AngularJS with Anthony Alicea</title>
+        <meta http-equiv="X-UA-Compatiable" content="IE-Edge">
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+        
+        <style>
+            html,body,input,select,textarea
+            {
+                font-size: 1.05em;
+            }
+        </style>
+        
+        <script src="https://code.angularjs.org/1.4.0-rc.2/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.4.0-rc.2/angular-route.min.js"></script>
+        <script src="app.js"></script>
+    <header>
+        <ul class="nav navabr-nav navbar-right">
+            <li><a href='#'><i class="fa fa-home"></i>Home</a></li>
+            <li><a href='#/second'><i></i>Second</a></li>
+        </ul>
+    </header>
+    </head>
+    <body>
+        <div class="container">
+           
+            <div ng-view>
+            
+            </div>
+        </div>
+       
+    </body>
+</html>
